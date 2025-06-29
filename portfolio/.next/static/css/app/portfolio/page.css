@@ -1,0 +1,82 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/bg-sphere/displacement-sphere.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.displacement-sphere_canvas__XgoGJ {
+  position: absolute;
+  width: 100vw;
+  inset: 0;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: var(--bezierFastoutSlowin);
+
+  &[data-visible='true'] {
+    opacity: 1;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/portfolio/glowCard.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.glowCard_card__B1BJT {
+    --start: 0;
+    position: relative;
+    z-index: 40;
+    overflow: hidden;
+    transition: border-color 1s ease-in-out;
+}
+
+.glowCard_card__B1BJT::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
+    background-attachment: fixed;
+    mask: linear-gradient(#0000, #0000),
+    conic-gradient(
+        from calc((var(--start) - 15) * 1deg),
+        #ffffff1f 0deg,
+        white,
+        #ffffff00 100deg
+    );
+    mask-composite: intersect;
+    mask-clip: padding-box, border-box;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.glowCard_glow__05DX0 {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(10px);
+    filter: saturate(200);
+}
+
+.glowCard_card__B1BJT:hover::before {
+    opacity: 1;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/portfolio/scrollLine.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.scrollLine_gradientline__L45q3 {
+    /* width: 2px; */
+    background: linear-gradient(
+      0deg,
+      rgba(222, 74, 69, 0) 0%,
+      #ef4290 25%,
+      #c852ff 51%,
+      #1443df 62.83%,
+      #42d7e8 92.91%
+    );
+  }
