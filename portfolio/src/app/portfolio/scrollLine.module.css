@@ -1,0 +1,11 @@
+.gradientline {
+    /* width: 2px; */
+    background: linear-gradient(
+      0deg,
+      rgba(222, 74, 69, 0) 0%,
+      #ef4290 25%,
+      #c852ff 51%,
+      #1443df 62.83%,
+      #42d7e8 92.91%
+    );
+  }

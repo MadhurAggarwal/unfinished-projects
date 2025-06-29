@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@react-three/fiber": "^9.1.0",
+    "gsap": "^3.12.7",
+    "motion": "^12.6.2",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.175.0",
+    "three-stdlib": "^2.35.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "glslify": "^7.1.1",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
